@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/formularios/registro.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img id="logo" src="../images/logoKartmania.jpg" alt="Logo Kartmania"></a>
+    </header>
+    <main>
+        <section id="logosLoginCarritoEspañaUK"> 
+                <div id="banderaEspaña">
+                    <a href="registro.html"><img src="../images/banderaEspana.png" alt="Español"></a>
+                </div> 
+            </section>
+        <form class="cajaLogin" novalidate>
+            <section>
+                <h1>REGISTER</h1>
+            </section>
+            <section id="camposRellenar">
+                <p id="rellenarNombre">Enter your first name:</p>
+                <input type="text" placeholder="First name" required>
+                <p id="rellenarApellidos">Enter your last name:</p>
+                <input type="text" placeholder="Last name" required>
+                <p id="rellenarEmail">Enter your email:</p>
+                <input type="email" placeholder="user@example.com" required>
+                <p id="rellenarContraseña">Enter your password:</p>
+                <input id="contraseña" type="password" placeholder="Password" required>
+                <p id="rellenarContraseña2">Re-enter your password:</p>
+                <input id="contraseña2" type="password" placeholder="Repeat password" required>
+                <div class="checkbox-wrapper">
+                    <p><input id="condiciones" type="checkbox" required> I have read and accept the privacy policy</p>
+                </div>
+                <button id="botonRegistrar" type="submit">Register</button>
+                <p class="volver-texto"><a id="backLogin" href="iniSesionEN.html">Back to Login</a></p>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
